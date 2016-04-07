@@ -1,0 +1,37 @@
+/*From W3schools*/
+
+table, th, td {
+    border: 1px solid black;
+}
+
+/*From W3schools*/
+
+tr:nth-of-type(odd) {
+    background: lightblue;
+}
+tr:nth-of-type(even) {
+    background: lightgreen;
+}
+tr:nth-of-type(1) {
+    background: white;
+}
+tr:nth-of-type(7) {
+    background: white;
+}
+ul {
+    list-style: square;
+}
+div {
+    top: 20px;
+    background: pink;
+    height: 50px;
+    width: 1000px;
+}
+#inner-content {
+    text-align: center;
+    background: lightblue;
+    height: 20px;
+    width: 700px;
+    position: relative;
+    left: 150px;
+}
